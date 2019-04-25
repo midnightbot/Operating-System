@@ -70,10 +70,10 @@ class Fcfs
  class process
 {
 	Scanner sc = new Scanner(System.in);
-	int n;
-	int entry;
-	int burst;
-	int exit;
+	int n; // process id 
+	int entry; // entry time of process
+	int burst; // burst time of process
+	int exit; // exit time of process that will be calculated and stored
 
 	public void input()
 	{
